@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<window type="window" id="14000">
+    <defaultcontrol always="true">120</defaultcontrol>
+    <allowoverlay>no</allowoverlay>
+    <controls>
+        <control type="image">
+            <width>1280</width>
+            <height>720</height>
+            <texture>white.png</texture>
+        </control>
+        <control type="image">
+            <width>1280</width>
+            <height>243</height>
+            <texture aligny="center" align="center">mubi.png</texture>
+            <aspectratio>keep</aspectratio>
+        </control>
+        <control type="label" id="121">
+            <visible>false</visible>
+            <posx>85</posx>
+            <posy>275</posy>
+            <height>320</height>
+            <width>1150</width>
+            <font>font64</font>
+            <align>left</align>
+            <aligny>center</aligny>
+            <textcolor>ff999999</textcolor>
+            <wrapmultiline>true</wrapmultiline>
+            <label>To sign up for a 14 day FREE trial and watch unlimited films on Boxee, go to [B][COLOR ff4a9fc9]mubi.com/boxee[/COLOR][/B]</label>
+        </control>
+        <control type="label" id="122">
+            <visible>!Control.IsVisible(121)</visible>
+            <posx>85</posx>
+            <posy>250</posy>
+            <height>320</height>
+            <width>1150</width>
+            <font>font64</font>
+            <align>left</align>
+            <aligny>center</aligny>
+            <textcolor>ff999999</textcolor>
+            <wrapmultiline>true</wrapmultiline>
+            <label>Your MUBI account is active and linked with Boxee! Browse the Boxee Movie Library for MUBI films.</label>
+        </control>
+    </controls>
+</window>

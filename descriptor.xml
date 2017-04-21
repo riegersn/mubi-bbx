@@ -1,0 +1,15 @@
+<app>
+    <id>mubi</id>
+    <name>MUBI</name>
+    <version>1.36</version>
+    <description>Your online cinema anytime, anywhere. Watch, Discover, Discuss.</description>
+    <thumb>http://dir.boxee.tv/apps/mubi/thumb.png</thumb>
+    <repository>http://dir.boxee.tv/apps/</repository>
+    <media>video</media>
+    <copyright>Boxee</copyright>
+    <email>support@boxee.tv</email>
+    <type>skin</type>
+    <startWindow>play</startWindow>
+    <platform>all</platform>
+    <minversion>0.9.21</minversion>
+</app>
